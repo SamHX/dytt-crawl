@@ -104,7 +104,7 @@ class DyttMoviesDownloaderMiddleware(object):
         spider.logger.info('Spider opened: %s' % spider.name)
 class myUserAgent(object):
     """docstring for myUserAgent"""
-    def process_request(self, request,spider):
+    def process_request(self, request, spider):
 
         USER_AGENT_LIST = [
             'MSIE (MSIE 6.0; X11; Linux; i686) Opera 7.23',
